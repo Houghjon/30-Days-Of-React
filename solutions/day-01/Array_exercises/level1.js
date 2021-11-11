@@ -85,3 +85,45 @@ Companies[4], ",", Companies[5], ",", Companies[6], " are big IT companies.")
     } 
    
 //#14
+
+    var count=Companies.length;
+    for(var i=0;i<count;i++)
+        {
+    if(Companies[i]=='o' & 'o'){
+        console.log(Companies[i])}
+        
+     {
+        console.log("Company not found.");}
+    } 
+
+ //#15 & #16
+
+    Companies.sort()
+    console.log(Companies)
+
+    Companies.reverse()
+    console.log(Companies)
+
+//#16 & #17 & #18
+
+    console.log(Companies.slice(0,3))
+    console.log(Companies.slice(4,7))
+    console.log(Companies.slice(2,5))
+
+//#20 & #21 & #22
+
+    Companies.shift()
+    console.log(Companies)
+
+    Companies.pop()
+    console.log(Companies)
+
+    Companies.splice(2,1)
+    console.log(Companies)
+
+//#23
+    while(Companies.length > 0) {
+     Companies.pop();
+    }
+    console.log(Companies)
+    
