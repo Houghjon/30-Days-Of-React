@@ -1,5 +1,5 @@
 //#1
-/*let age = prompt('Enter your age: ')
+let age = prompt('Enter your age: ')
 switch (true){
     case age < 18 :
         console.log ('You need to wait ' + Math.ceil(18-age) + ' years to drive.')
@@ -9,9 +9,9 @@ switch (true){
         console.log('You are old enough to drive.')
         break
     
-}*/
+}
 //#2
-/*let myAge = 25
+let myAge = 25
 let yourAge = prompt('Enter your age: ')
 let ageDiff = Math.abs(yourAge-myAge)
 if (yourAge > myAge) {
@@ -20,10 +20,10 @@ if (yourAge > myAge) {
 } else {
     console.log("I'm " +ageDiff+ " years older than you")
     
-}*/
+}
 //#3
 // first using if else statement
-/*
+
 let a = prompt('Enter value of a: ')
 let b = 3
 
@@ -37,4 +37,14 @@ if (a >b ) {
 
 //using ternary statement
  a > b ? console.log('A is greater than B.') : console.log('A is not greater than B.')
- */
+ 
+
+//4
+
+let evenNumber = prompt("Enter a number: ")
+//check if the prompt is an even number, if it is print first log, if not print 2nd
+
+evenNumber % 2 == 0 ? console.log(evenNumber +' is an even number.') : console.log(evenNumber +' is not an even number.')
+
+
+
